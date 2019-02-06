@@ -23,6 +23,17 @@ view.fh.disable()
 control.fh.disable()
 ```
 
+#### Enable Parameters
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| `normalColor` | `UIColor` | Background color |
+| `highlightedColor` | `UIColor`
+| `selectedColor` | `UIColor` | Only in UIControl |
+| `highlightedOptions` | `AnimationOptions`
+| `highlightedDelay` | `TimeInterval`
+| `highlightedDuration` | `TimeInterval` 
+
 
 ## Installation
 
