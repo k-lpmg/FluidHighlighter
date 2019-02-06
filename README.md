@@ -29,7 +29,7 @@ control.fh.disable()
 | --- | --- | --- |
 | `normalColor` | `UIColor` | Background color |
 | `highlightedColor` | `UIColor`
-| `selectedColor` | `UIColor` | Background color selected | | Only in UIControl |
+| `selectedColor` | `UIColor` | Background color selected, Only in UIControl |
 | `highlightedOptions` | `AnimationOptions`
 | `highlightedDelay` | `TimeInterval`
 | `highlightedDuration` | `TimeInterval` 
