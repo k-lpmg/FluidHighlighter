@@ -59,7 +59,7 @@ public extension FluidHighlighter where Base: UIView {
     
     // MARK: - Public methods
     
-    public func enable(normalColor: UIColor, highlightedColor: UIColor, selectedColor: UIColor? = nil, highlightedOptions: UIView.AnimationOptions? = nil, highlightedDelay: TimeInterval = 0.0, highlightedDuration: TimeInterval = 0.5) {
+    public func enable(normalColor: UIColor, highlightedColor: UIColor, highlightedOptions: UIView.AnimationOptions? = nil, highlightedDelay: TimeInterval = 0.0, highlightedDuration: TimeInterval = 0.5) {
         self.normalColor = normalColor
         self.highlightedColor = highlightedColor
         self.highlightedOptions = highlightedOptions
