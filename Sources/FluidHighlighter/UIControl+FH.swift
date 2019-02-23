@@ -96,7 +96,7 @@ public extension FluidHighlighter where Base: UIControl {
         }
     }
     
-    public func disable() {
+    public func controlDisable() {
         normalColor = nil
         highlightedColor = nil
         highlightedOptions = nil
