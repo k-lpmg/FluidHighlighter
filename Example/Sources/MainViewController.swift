@@ -59,8 +59,8 @@ final class MainViewController: UIViewController {
     
     private func setFluidHighlighter() {
         view1.fh.enable(normalColor: .white, highlightedColor: UIColor.gray.withAlphaComponent(0.5))
-        control.fh.enable(normalColor: .white, highlightedColor: UIColor.yellow.withAlphaComponent(0.5))
-        button.fh.enable(normalColor: .white, highlightedColor: UIColor.darkGray.withAlphaComponent(0.5))
+        control.fh.controlEnable(normalColor: .white, highlightedColor: UIColor.yellow.withAlphaComponent(0.5))
+        button.fh.controlEnable(normalColor: .white, highlightedColor: UIColor.darkGray.withAlphaComponent(0.5))
     }
     
 }
