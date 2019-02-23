@@ -14,13 +14,13 @@ FluidHighlighter easily implements the Fluid Interface based highlighting effect
 #### Highlighting enable
 ```swift
 view.fh.enable(normalColor: UIColor.white, highlightedColor: UIColor.gray)
-control.fh.enable(normalColor: UIColor.white, highlightedColor: UIColor.gray)
+control.fh.controlEnable(normalColor: UIColor.white, highlightedColor: UIColor.gray)
 ```
 
 #### Highlighting disable
 ```swift
 view.fh.disable()
-control.fh.disable()
+control.fh.controlDisable()
 ```
 
 #### Enable Parameters
