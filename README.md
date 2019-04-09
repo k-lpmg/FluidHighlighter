@@ -43,7 +43,7 @@ control.fh.controlDisable()
 platform :ios, '8.0'
 use_frameworks!
 
-target 'MyApp' do
+target '<Your Target Name>' do
     pod 'FluidHighlighter'
 end
 ```
