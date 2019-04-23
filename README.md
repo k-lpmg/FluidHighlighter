@@ -1,7 +1,8 @@
 # FluidHighlighter
+[![Build Status](https://travis-ci.org/k-lpmg/FluidHighlighter.svg?branch=master)](https://travis-ci.org/k-lpmg/FluidHighlighter)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 [![Cocoapods](https://img.shields.io/cocoapods/v/FluidHighlighter.svg?style=flat)](https://cocoapods.org/pods/FluidHighlighter)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 
 FluidHighlighter easily implements the Fluid Interface based highlighting effect on UIView and UIControl.
 
