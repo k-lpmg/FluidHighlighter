@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FluidHighlighter"
-  s.version      = "1.0.1"
+  s.version      = "2.0.0"
   s.summary      = "FluidHighlighter easily implements the Fluid Interface based highlighting effect on UIView and UIControl."
   s.homepage     = "https://github.com/k-lpmg/FluidHighlighter"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
