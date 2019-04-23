@@ -79,7 +79,12 @@ public extension FluidHighlighter where Base: UIControl {
     
     // MARK: - Public methods
     
-    public func controlEnable(normalColor: UIColor, highlightedColor: UIColor, selectedColor: UIColor? = nil, highlightedOptions: UIView.AnimationOptions? = nil, highlightedDelay: TimeInterval = 0.0, highlightedDuration: TimeInterval = 0.5) {
+    func controlEnable(normalColor: UIColor,
+                       highlightedColor: UIColor,
+                       selectedColor: UIColor? = nil,
+                       highlightedOptions: UIView.AnimationOptions? = nil,
+                       highlightedDelay: TimeInterval = 0.0,
+                       highlightedDuration: TimeInterval = 0.5) {
         self.normalColor = normalColor
         self.highlightedColor = highlightedColor
         self.selectedColor = selectedColor
@@ -96,7 +101,7 @@ public extension FluidHighlighter where Base: UIControl {
         }
     }
     
-    public func controlDisable() {
+    func controlDisable() {
         normalColor = nil
         highlightedColor = nil
         highlightedOptions = nil
@@ -107,7 +112,7 @@ public extension FluidHighlighter where Base: UIControl {
         touchProxy?.removeTarget()
     }
     
-    public func refreshBackgroundColor() {
+    func refreshBackgroundColor() {
         touchProxy?.refreshBackgroundColor()
     }
     

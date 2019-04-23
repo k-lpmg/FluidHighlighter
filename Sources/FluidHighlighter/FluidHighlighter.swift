@@ -13,7 +13,7 @@ public protocol FluidHighlighterCompatible {
 }
 
 public extension FluidHighlighterCompatible {
-    public var fh: FluidHighlighter<Self> {
+    var fh: FluidHighlighter<Self> {
         return FluidHighlighter(self)
     }
 }

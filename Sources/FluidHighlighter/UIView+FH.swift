@@ -59,7 +59,11 @@ public extension FluidHighlighter where Base: UIView {
     
     // MARK: - Public methods
     
-    public func enable(normalColor: UIColor, highlightedColor: UIColor, highlightedOptions: UIView.AnimationOptions? = nil, highlightedDelay: TimeInterval = 0.0, highlightedDuration: TimeInterval = 0.5) {
+    func enable(normalColor: UIColor,
+                highlightedColor: UIColor,
+                highlightedOptions: UIView.AnimationOptions? = nil,
+                highlightedDelay: TimeInterval = 0.0,
+                highlightedDuration: TimeInterval = 0.5) {
         self.normalColor = normalColor
         self.highlightedColor = highlightedColor
         self.highlightedOptions = highlightedOptions
@@ -69,7 +73,7 @@ public extension FluidHighlighter where Base: UIView {
         base.backgroundColor = normalColor
     }
     
-    public func disable() {
+    func disable() {
         normalColor = nil
         highlightedColor = nil
         highlightedOptions = nil
@@ -77,13 +81,13 @@ public extension FluidHighlighter where Base: UIView {
         highlightedDuration = 0
     }
     
-    public func touchDown() {
+    func touchDown() {
         guard let highlightedColor = highlightedColor else {return}
         
         base.backgroundColor = highlightedColor
     }
     
-    public func touchUp() {
+    func touchUp() {
         guard let normalColor = normalColor else {return}
         
         UIView.animate(withDuration: highlightedDuration, delay: highlightedDelay, options: highlightedOptions ?? [], animations: {
