@@ -108,8 +108,8 @@ public extension FluidHighlighter where Base: UIControl {
         highlightedDelay = 0
         highlightedDuration = 0
         
-        touchProxy = nil
         touchProxy?.removeTarget()
+        touchProxy = nil
     }
     
     func refreshBackgroundColor() {
